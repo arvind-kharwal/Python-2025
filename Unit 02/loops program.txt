@@ -1,0 +1,75 @@
+
+1. Write a Python program to print the table of the given number.
+
+2. Write a Python program to calculate the factorial of the given number.
+
+3. Write a Python program to calculate the sum of digits of a 5 digits number. 
+
+4. Write a Python program to calculate the reverse number of a 5 digits number. 
+
+5. Write a Python program to check whether the given number is prime or not. 
+
+6. Write a Python program to print all Prime numbers in given Intervals. 
+
+7. Write a Python program to generate fibonacci series. 
+
+8. Write a Python program to check whether the given number is armstrong number or not.
+
+9. Write a Python program to print all armstrong numbers in given intervals.
+
+10. Print following pattern:
+
+* * * * *
+* * * * *
+* * * * *
+* * * * *
+* * * * *
+
+11. Print following pattern:
+
+1 2 3 4 5
+1 2 3 4 5
+1 2 3 4 5
+1 2 3 4 5
+1 2 3 4 5
+
+12. Print following pattern:
+
+1 1 1 1 1
+2 2 2 2 2
+3 3 3 3 3
+4 4 4 4 4
+5 5 5 5 5
+
+13. Print following pattern:
+
+A B C D E
+A B C D E
+A B C D E
+A B C D E
+A B C D E
+
+14. Print following pattern:
+
+A A A A A
+B B B B B
+C C C C C
+D D D D D
+E E E E E
+
+15. Print following pattern:
+
+a b c d e
+a b c d e
+a b c d e
+a b c d e
+a b c d e
+
+
+16. Print following pattern:
+
+a a a a a
+b b b b b
+c c c c c
+d d d d d
+e e e e e

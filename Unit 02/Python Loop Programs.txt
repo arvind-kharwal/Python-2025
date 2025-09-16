@@ -1,0 +1,171 @@
+### Range() in Negative ###
+1. 
+a = range(5)
+b = list(a)
+print(b)
+
+Output: [0, 1, 2, 3, 4]
+
+2. 
+a = range(1,5)
+b = list(a)
+print(b)
+
+Output: [1, 2, 3, 4]
+
+
+3. 
+
+a = range(1,5,2)
+b = list(a)
+print(b)
+
+[1, 3]
+
+
+
+4. 
+
+a = range(10,0,-1)
+b = list(a)
+print(b)
+
+Output: [10, 9, 8, 7, 6, 5, 4, 3, 2, 1]
+
+
+
+
+1.  *
+   **
+  ***
+ ****
+*****
+
+for i in range(5):
+    for j in range(5-i-1):
+        print(' ', end='')
+    for k in range(i+1):
+        print('*',end='')
+    print()
+
+
+2.  1
+   12
+  123
+ 1234
+12345
+
+
+for i in range(1,6):
+    for j in range(6-i-1):
+        print(' ', end='')
+    for k in range(i):
+        print(k+1,end='')
+    print()
+
+
+
+3.  A
+   AB
+  ABC
+ ABCD
+ABCDE
+
+
+for i in range(65,70):
+    for j in range(70-i-1):
+        print(' ', end='')
+    for k in range(65,i+1):
+        print(chr(k),end='')
+    print()
+
+
+
+
+4.  1
+   21
+  321
+ 4321
+54321
+
+
+for i in range(5):
+    for j in range(5-i-1):
+        print(' ', end='')
+    for k in range(i,-1,-1):
+        print(k+1,end='')
+    print()
+
+
+for i in range(1,50):
+    print(i,end=' ')
+
+
+1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 
+
+
+### Python program to print all the even numbers within the given range.
+
+for i in range(20):
+    if i%2==0:
+        print(i,end=' ')
+
+
+Output: 0 2 4 6 8 10 12 14 16 18 
+
+
+Output: 1 3 5 7 9 11 13 15 17 19 
+
+
+Python program to calculate the sum of all numbers from 1 to a given number.
+
+sum = 0
+n=int(input('Enter the number: '))
+for i in range(1,n+1):
+    sum = sum+i
+print('The sum of all numbers: ',sum)
+
+Output: 
+
+Enter the number:  5
+The sum of all numbers:  15
+
+
+
+Python program to calculate the sum of all the odd numbers within the given range.
+
+sum = 0
+n=int(input('Enter the number: '))
+for i in range(1,n+1):
+    if i%2!=0:
+        sum = sum+i
+print('The sum of all numbers: ',sum)
+
+
+Output: 
+Enter the number:  5
+The sum of all numbers:  9
+
+
+Python program to print a multiplication table of a given number.
+
+
+n=int(input('Enter the number: '))
+for i in range(1,11):
+    print(n,'*',i,'=',n*i)
+
+
+Enter the number:  6
+6 * 1 = 6
+6 * 2 = 12
+6 * 3 = 18
+6 * 4 = 24
+6 * 5 = 30
+6 * 6 = 36
+6 * 7 = 42
+6 * 8 = 48
+6 * 9 = 54
+6 * 10 = 60
+
+
+Python program to count the total number of digits in a number.
