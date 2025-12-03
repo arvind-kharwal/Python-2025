@@ -1,0 +1,10 @@
+from tkinter import *
+window = Tk()
+window.title('Tkinter First Window')
+# window.minsize(300,400)
+window.maxsize(500,500)
+window.geometry('600x600')
+window.iconbitmap(r'av.ico')
+label1 = Label(window,text='Hello').pack()
+label2 = Label(text='Arvind Hello').pack()
+window.mainloop()
